@@ -5,7 +5,7 @@ from pytubefix.cli import on_progress
 def download_yt_video():
 
     # Insert your url
-    url = "https://youtu.be/2jVBWyih-RU?si=Gne7gjpW_XlFIu5G"
+    url = "<YOUR-URL>"
 
     yt = YouTube(url, on_progress_callback=on_progress)
     print(yt.title)
